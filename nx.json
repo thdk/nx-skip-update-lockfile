@@ -21,5 +21,13 @@
         }
       }
     }
-  ]
+  ],
+  "release": {
+    "version": {
+      "generatorOptions": {
+        "skipupdatelockfile": true
+      },
+      "preVersionCommand": "npx nx run-many -t build"
+    }
+  }
 }
